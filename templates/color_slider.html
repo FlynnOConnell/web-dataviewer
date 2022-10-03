@@ -1,0 +1,41 @@
+{#{%  extends "home.html" %}#}
+
+
+<div class="container-fluid">
+		<div class="col-md-4" style="max-width: none;">
+			<div class="box">
+				<div class="p-2">
+					<p id="color-label" style="font-weight: bolder;"> Color </p>
+				</div>
+				<div id='display-box'>
+				</div>
+				<div class="card">
+					<div id="color_slider" class="card-body">
+						<h2 class="card-title">
+							Color slider
+						</h2>
+						{% include "small_slider.html" %}
+						<a href="#" class="btn btn-primary" id="sendColor">
+							Set color
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-12">
+			<canvas id="inputCanvas" width="200" height="200"> </canvas>
+			<button class="btn btn-primary" id="clearButton">
+				Clear
+			</button>
+			<button class="btn btn-primary" id="sendButton">
+				Send data
+			</button>
+		</div>
+		<div class="col-sm-6">
+		</div>
+		<div class="col-sm-2">
+			</div>
+</div>
+
+
+

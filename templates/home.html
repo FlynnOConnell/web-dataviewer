@@ -1,0 +1,24 @@
+
+{# HTML Skeleton for a Simple 2 column page. #}
+{# Its the job of index.html to fill in the containers. #}
+{% extends "layout.html" %}
+
+{% block css %}
+<link rel="stylesheet" href="../static/css/style.css" />
+{% endblock %}
+
+{% block content %}
+<div id="belowtopnav" class="home" style="margin-left: 100px; padding-top: 5px;">
+	<div id="main">
+		<h1>
+			COLOR SELECTOR
+			<span class = "color_h1">
+				: Pick a color to draw an image.
+			</span>
+		</h1>
+		{% include "color_slider.html" %}
+	</div>
+</div>
+{% endblock %}
+
+
