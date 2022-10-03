@@ -7,6 +7,7 @@ pom.xml.next
 release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
+buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
@@ -23,106 +24,6 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
-
-### Magento2 template
-/sitemap
-/sitemap.xml
-/pub/sitemap
-/pub/sitemap.xml
-/app/config_sandbox
-/app/etc/config.php
-/app/etc/env.php
-/app/code/Magento/TestModule*
-/lib/internal/flex/uploader/.actionScriptProperties
-/lib/internal/flex/uploader/.flexProperties
-/lib/internal/flex/uploader/.project
-/lib/internal/flex/uploader/.settings
-/lib/internal/flex/varien/.actionScriptProperties
-/lib/internal/flex/varien/.flexLibProperties
-/lib/internal/flex/varien/.project
-/lib/internal/flex/varien/.settings
-/.grunt
-/.php_cs.cache
-/grunt-config.json
-/dev/tools/grunt/configs/local-themes.js
-
-/pub/media/*.*
-!/pub/media/.htaccess
-/pub/media/attribute/*
-!/pub/media/attribute/.htaccess
-/pub/media/analytics/*
-/pub/media/catalog/*
-!/pub/media/catalog/.htaccess
-/pub/media/customer/*
-!/pub/media/customer/.htaccess
-/pub/media/downloadable/*
-!/pub/media/downloadable/.htaccess
-/pub/media/favicon/*
-/pub/media/import/*
-!/pub/media/import/.htaccess
-/pub/media/logo/*
-/pub/media/theme/*
-/pub/media/theme_customization/*
-!/pub/media/theme_customization/.htaccess
-/pub/media/wysiwyg/*
-!/pub/media/wysiwyg/.htaccess
-/pub/media/tmp/*
-!/pub/media/tmp/.htaccess
-/pub/media/captcha/*
-!/pub/media/captcha/.htaccess
-/pub/static/*
-!/pub/static/.htaccess
-
-/var/*
-!/var/.htaccess
-/vendor/*
-!/vendor/.htaccess
-/generated/*
-!/generated/.htaccess
-
-### Magento1 template
-# gitignore template for Magento v1 projects
-#
-# It is recommended that you use `Magento.gitignore` as this is the latest version
-
-/PATCH_*.sh
-
-/app/etc/local.xml
-
-/media/*
-!/media/.htaccess
-
-!/media/customer
-/media/customer/*
-!/media/customer/.htaccess
-
-!/media/dhl
-/media/dhl/*
-!/media/dhl/logo.jpg
-
-!/media/downloadable
-/media/downloadable/*
-!/media/downloadable/.htaccess
-
-!/media/xmlconnect
-/media/xmlconnect/*
-
-!/media/xmlconnect/custom
-/media/xmlconnect/custom/*
-!/media/xmlconnect/custom/ok.gif
-
-!/media/xmlconnect/original
-/media/xmlconnect/original/*
-!/media/xmlconnect/original/ok.gif
-
-!/media/xmlconnect/system
-/media/xmlconnect/system/*
-!/media/xmlconnect/system/ok.gif
-
-
-!/var/package
-/var/package/*
-!/var/package/*.xml
 
 
 ### Node template
@@ -181,11 +82,6 @@ web_modules/
 # Optional eslint cache
 .eslintcache
 
-# Microbundle cache
-.rpt2_cache/
-.rts2_cache_cjs/
-.rts2_cache_es/
-.rts2_cache_umd/
 
 # Optional REPL history
 .node_repl_history
@@ -916,20 +812,6 @@ _book
 
 # Embedded web-server pid file
 /.web-server-pid
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### VisualStudio template
 ## Ignore Visual Studio temporary files, build results, and
@@ -1987,10 +1869,10 @@ www-test/
 #
 # Recommended template: Node.gitignore
 
-# TODO: where does this rule come from?
+
 docs/_book
 
-# TODO: where does this rule come from?
+
 test/
 
 ### Sass template
@@ -2554,8 +2436,6 @@ DerivedDataCache/*
 # Byte-compiled / optimized / DLL files
 *$py.class
 
-# C extensions
-
 # Distribution / packaging
 .Python
 .eggs/
@@ -2936,7 +2816,6 @@ pickle-email-*.html
 !/log/.keep
 !/tmp/.keep
 
-# TODO Comment out this rule if you are OK with secrets being uploaded to the repo
 config/initializers/secret_token.rb
 config/master.key
 
@@ -2944,7 +2823,6 @@ config/master.key
 # config/secrets.yml
 
 # dotenv, dotenv-rails
-# TODO Comment out these rules if environment variables can be committed
 .env.*
 
 ## Environment normalization:
@@ -3834,8 +3712,6 @@ acs-*.bib
 # endnotes
 *.ent
 
-# fixme
-*.lox
 
 # feynmf/feynmp
 *.mf
@@ -3893,7 +3769,6 @@ acs-*.bib
 
 # knitr
 *-concordance.tex
-# TODO Uncomment the next line if you use knitr and want to ignore its generated tikz files
 # *.tikz
 *-tikzDictionary
 
@@ -3973,9 +3848,6 @@ pythontex-files-*/
 # vhistory
 *.hst
 *.ver
-
-# easy-todo
-*.lod
 
 # xcolor
 *.xcp
@@ -4260,3 +4132,4 @@ Mercury.modules
 *.aliases
 *.lvlps
 
+!/LICENSE
