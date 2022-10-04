@@ -1,4 +1,4 @@
-<aside id="slider">
+<div id="slider">
 	<article>
 		<label for="r">R</label>
 		<input type="range" min="0" max="255" id="r" step="1" value="0">
@@ -15,6 +15,6 @@
 		<output for="b" id="b_out">0</output>
 	</article>
 	<output id="hex">#000000</output>
-</aside>
+</div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="../static/js/sliders.js"></script>
+<script src="{{ url_for('static', filename="js/sliders.js") }}"></script>
