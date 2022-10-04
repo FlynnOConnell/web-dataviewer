@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="Flask">
+    <option name="enabled" value="true" />
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/app">
+      <sourceFolder url="file://$MODULE_DIR$/app" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/app/images" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.9" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TemplatesService">
+    <option name="templateFileTypes">
+      <list>
+        <option value="CSS" />
+        <option value="HTML" />
+        <option value="XHTML" />
+        <option value="XML" />
+      </list>
+    </option>
+    <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/app/templates" />
+      </list>
+    </option>
+  </component>
+</module>

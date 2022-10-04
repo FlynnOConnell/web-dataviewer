@@ -21,7 +21,7 @@ import numpy as np
 app = Flask(__name__)
 app.secret_key = 's3cr3t'
 app.debug = True
-app._static_folder = os.path.abspath("static/")
+app._static_folder = os.path.abspath("./static/")
 
 
 def convert_color(color_arr: np.ndarray):
