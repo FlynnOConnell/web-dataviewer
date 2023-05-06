@@ -1,8 +1,3 @@
-//  In this file a canvas is generated and added to the DOM.
-//  The mouse is used to draw dots on the canvas with a predefined color and radius.
-//  One button is used to send the data of the current drawing on the canvas and another one is used to clear the canvas.
-
-
 $( document ).ready(function() {
 
    function createCanvas() {
